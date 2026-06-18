@@ -48,8 +48,6 @@ export const Header = () => {
 					</ul>
 				</div>
 			</header>
-
-			<main className="mt-12"></main>
 		</>
 	)
 }
