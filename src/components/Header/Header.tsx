@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { pesquisa, menu, close } from "../../assets/index"
+import { pesquisaIcon, menuIcon, closeIcon } from "../../assets/icons/index"
 import { Li } from "../../components/li"
 
 export const Header = () => {
@@ -14,13 +14,17 @@ export const Header = () => {
 			<header className="fixed top-0 left-0 w-full z-50">
 				<nav className="bg-white/70 backdrop-blur-md flex items-center h-12 justify-end gap-3.5 px-5">
 					<div>
-						<img src={pesquisa} alt="Pesquisar" className="cursor-pointer" />
+						<img
+							src={pesquisaIcon}
+							alt="Pesquisar"
+							className="cursor-pointer"
+						/>
 					</div>
 
 					<div id="menu">
 						<img
 							onClick={alternarMenu}
-							src={menu2 ? close : menu}
+							src={menu2 ? closeIcon : menuIcon}
 							alt="Menu"
 							className="cursor-pointer transition-transform duration-300"
 							style={{
@@ -40,7 +44,7 @@ export const Header = () => {
 							Recomendações
 						</p>
 
-						<Li txt="Catálogo de plantas" caminho="" />
+						<Li txt="Catálogo de plantas" caminho="/HORTA-ESCOLAR/" />
 						<Li txt="Diagnóstico de plantas" caminho="" />
 						<Li txt="Diagnóstico de pragas" caminho="" />
 						<Li txt="Gestão da horta" caminho="" />

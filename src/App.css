@@ -24,3 +24,13 @@ h2 {
 	font-weight: 500;
 	padding: 1.5rem 0;
 }
+
+.swiper-pagination-bullet {
+	background-color: #d1d5db;
+	opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+	opacity: var(--swiper-pagination-bullet-opacity, 1);
+	background: #1a4225;
+}

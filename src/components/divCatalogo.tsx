@@ -13,7 +13,7 @@ export const DivCatalogo = ({
 		<>
 			<NavLink to={caminho}>
 				<div
-					className="bg-cover bg-center h-40 w-40 md:h-46 md:w-46 lg:h-64 lg:w-64 rounded-md flex justify-center items-end py-2 transition-transform duration-300 hover:scale-105"
+					className="bg-cover bg-center h-35 w-35 md:h-43 md:w-43 lg:h-49 lg:w-49 rounded-2xl flex justify-center items-end py-2 transition-transform duration-300 hover:scale-105"
 					style={{
 						backgroundImage: `url(${imagem})`,
 					}}
