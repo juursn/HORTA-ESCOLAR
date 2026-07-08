@@ -45,10 +45,20 @@ export const Header = () => {
 						</p>
 
 						<Li txt="Catálogo de plantas" caminho="/HORTA-ESCOLAR/" />
-						<Li txt="Diagnóstico de plantas" caminho="" />
-						<Li txt="Diagnóstico de pragas" caminho="" />
-						<Li txt="Gestão da horta" caminho="" />
-						<Li txt="Sobre o projeto" caminho="" />
+						<Li
+							txt="Identificador de plantas"
+							caminho="/HORTA-ESCOLAR/IDENTIFICACAO"
+						/>
+						<Li
+							txt="Diagnóstico de plantas"
+							caminho="/HORTA-ESCOLAR/DIAGNOSTICO-PLANTA"
+						/>
+						<Li
+							txt="Diagnóstico de pragas"
+							caminho="/HORTA-ESCOLAR/DIAGNOSTICO-PRAGA"
+						/>
+						<Li txt="Gestão da horta" caminho="/HORTA-ESCOLAR/GESTAO-HORTA" />
+						<Li txt="Sobre o projeto" caminho="/HORTA-ESCOLAR/SOBRE-PROJETO" />
 					</ul>
 				</div>
 			</header>
